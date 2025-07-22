@@ -1,0 +1,43 @@
+body {
+  font-family: Arial;
+}
+h1 {
+  font-size: 48px;
+  line-height: 1;
+}
+span,
+p {
+  font-size: 20px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.titulo {
+  grid-column: 1/-1;
+}
+.img {
+  grid-column: 1;
+}
+.info {
+  display: grid;
+  place-self: start;
+  gap: 20px;
+  place-items: start;
+}
+.preco {
+  background: #ddd;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+img {
+  max-width: 100%;
+}
+.comprar {
+  background: #d5a0e6;
+  padding: 8px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+}
